@@ -241,10 +241,10 @@ Public Class ImpresionBL
             Texto = Texto + objimpresion.AlinCent("Admin: " + factura.serie + "-" + factura.numero, mAncho) + vbCrLf
             Texto = Texto + .AlinCent("Sujeto a pagos trimestrales", mAncho) + vbCrLf
             Texto = Texto + .AlinCent("AGENTE DE RETENCION DEL IVA", mAncho) + vbCrLf
-            Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+            Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
             Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
+            'DIEGO: CAMBIO DE LEYENDA CERTIFICADOR A Ainnova, S.A.
 
-            'Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
             'Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
 
             Texto = Texto + pieFactura
@@ -512,7 +512,7 @@ Public Class ImpresionBL
                 Texto = Texto + .AlinCent("Sujeto a pagos trimestrales", mAncho) + vbCrLf
                 Texto = Texto + .AlinCent("AGENTE DE RETENCION DEL IVA", mAncho) + vbCrLf
 
-                Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+                Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
                 Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
 
                 Texto = Texto + pieFactura
@@ -796,7 +796,7 @@ Public Class ImpresionBL
                 Texto = Texto + .AlinCent("Sujeto a pagos trimestrales", mAncho) + vbCrLf
                 Texto = Texto + .AlinCent("AGENTE DE RETENCION DEL IVA", mAncho) + vbCrLf
 
-                Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+                Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
                 Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
 
                 Texto = Texto + pieFactura
@@ -1044,7 +1044,7 @@ Public Class ImpresionBL
             Texto = Texto + "VENDEDOR:" + co_glo_vendedor + vbCrLf
             Texto = Texto + .AlinCent("Sujeto a pagos trimestrales", mAncho) + vbCrLf
             Texto = Texto + .AlinCent("AGENTE DE RETENCION DEL IVA", mAncho) + vbCrLf
-            Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+            Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
             Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
             Texto = Texto + pieFactura
             Texto = Texto + vbCrLf
@@ -1632,7 +1632,7 @@ Public Class ImpresionBL
                 Texto = Texto + objimpresion.AlinCent("Admin : " + nc.serie + "-" + nc.numero, mAncho) + vbCrLf
                 Texto = Texto + "Sujeto a pagos trimestrales " + vbCrLf
                 Texto = Texto + "AGENTE DE RETENCION DEL IVA " + vbCrLf
-                Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+                Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
                 Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
                 Texto = Texto + vbCrLf
                 Texto = Texto + vbCrLf
@@ -1847,7 +1847,7 @@ Public Class ImpresionBL
                     Texto = Texto + objimpresion.AlinCent("Admin : " + nc.serie + "-" + nc.numero, mAncho) + vbCrLf
                     Texto = Texto + "Sujeto a pagos trimestrales " + vbCrLf
                     Texto = Texto + "AGENTE DE RETENCION DEL IVA " + vbCrLf
-                    Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+                    Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
                     Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
 
                     Texto = Texto + vbCrLf
@@ -2034,7 +2034,7 @@ Public Class ImpresionBL
             Texto = Texto + objimpresion.AlinCent("Admin : " + nc.serie + "-" + nc.numero, mAncho) + vbCrLf
             Texto = Texto + "Sujeto a pagos trimestrales " + vbCrLf
             Texto = Texto + "AGENTE DE RETENCION DEL IVA " + vbCrLf
-            Texto = Texto + .AlinCent("CERTIFICADOR " & "GUATEFACTURAS SOCIEDAD ANONIMA", mAncho) + vbCrLf
+            Texto = Texto + .AlinCent("CERTIFICADOR " & "Ainnova, S.A.", mAncho) + vbCrLf
             Texto = Texto + .AlinCent("NIT CERTIFICADOR " & "5640773 - 4", mAncho) + vbCrLf
             Texto = Texto + vbCrLf
             Texto = Texto + vbCrLf
