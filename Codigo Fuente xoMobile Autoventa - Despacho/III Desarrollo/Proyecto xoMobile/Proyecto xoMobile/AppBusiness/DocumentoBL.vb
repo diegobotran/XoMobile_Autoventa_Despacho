@@ -2537,4 +2537,83 @@ Public Class DocumentoBL
         End Try
     End Function
 
+    'Función nueva para validar si se puede anular Notas de Crédito que ya tienen anulados sus documentos padre 
+    Public Function puedeAnularNotaCredito(ByVal idNc As String) As Boolean
+        Dim objNc As New NotaCreditoDT
+        Dim dt As DataTable
+        Try
+            dt = objNc.getDocumentoPadreEstado(idNc)
+            If dt.Rows.Count = 0 Then Return False
+
+            Dim estadoFactura As String = Trim(dt.Rows(0).Item("estadoFactura").ToString())
+            Dim estadoRecibo As String = Trim(dt.Rows(0).Item("estadoRecibo").ToString())
+
+            ' --- Prioriza Factura sobre Recibo ---
+            If estadoFactura = "2" Then Return True
+            If estadoFactura = "" AndAlso estadoRecibo = "2" Then Return True
+
+            Return False
+
+        Catch ex As Exception
+            MsgBox("Error al validar el documento padre: " & ex.Message, MsgBoxStyle.Exclamation)
+            Return False
+        End Try
+    End Function
+
+
+    Public Function anularNotaCreditoIndividual(ByVal idNc As String, ByVal idCliente As String, ByVal motivo As String) As Boolean
+        Dim Fel As New Generador
+        Dim objBitacora As New BitacoraBL
+        Dim objCliente As New ClienteBL
+        Dim objNotaCreditoDT As New NotaCreditoDT
+        Dim dtNc As DataTable
+
+        Try
+            ' --- Recuperar datos de la Nota de Crédito ---
+            dtNc = objNotaCreditoDT.getNotaDeCredito(idNc)
+            If dtNc.Rows.Count = 0 Then
+                MsgBox("No se encontró la Nota de Crédito indicada.", MsgBoxStyle.Exclamation)
+                Return False
+            End If
+
+            ' --- Evitar doble anulación ---
+            If Trim(dtNc.Rows(0).Item("estado").ToString()) = "2" Then
+                MsgBox("La Nota de Crédito ya se encuentra anulada.", MsgBoxStyle.Information)
+                Return False
+            End If
+
+            ' --- Validar FEL (si aplica) ---
+            If id_glo_fel = "X" Then
+                Dim serieNc As String = Trim(dtNc.Rows(0).Item("serie").ToString())
+                Dim preimpresoNc As String = Trim(dtNc.Rows(0).Item("preimpreso").ToString())
+                Dim clienteData As ClienteCO = objCliente.getDetalleDelCliente(idCliente)
+
+                If Not Fel.anulacion(serieNc, preimpresoNc, clienteData.nit, DateTime.Now, motivo) Then
+                    MsgBox("No se pudo realizar la anulación en FEL. Verifique conexión o datos.", MsgBoxStyle.Exclamation)
+                    Return False
+                End If
+            End If
+
+            ' --- Actualizar estado local ---
+            Dim filasAfectadas As Integer = objNotaCreditoDT.anularNotaCreditoBD(idNc, id_glo_usuario, motivo)
+
+            If filasAfectadas > 0 Then
+                objBitacora.registrarOperacion(22, id_glo_cliente)
+                MsgBox("Nota de Crédito anulada correctamente.", MsgBoxStyle.Information)
+                Return True
+            Else
+                MsgBox("No se pudo actualizar el estado de la Nota de Crédito.", MsgBoxStyle.Exclamation)
+                Return False
+            End If
+
+        Catch ex As Exception
+            MsgBox("Error al intentar anular la Nota de Crédito: " & ex.Message, MsgBoxStyle.Critical)
+            Return False
+        End Try
+    End Function
+
+
+
+
+
 End Class

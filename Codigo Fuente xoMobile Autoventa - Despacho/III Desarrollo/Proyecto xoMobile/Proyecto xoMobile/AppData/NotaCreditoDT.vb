@@ -675,4 +675,32 @@ Public Class NotaCreditoDT
         Return SQL_RESULT
     End Function
 
+
+    '-------------FUNCIONES AGREGADAS PARA ANULAR NC DIRECTAMENTE 
+    ' En NotaCreditoDT.vb
+    Public Function getDocumentoPadreEstado(ByVal idNc As String) As DataTable
+        Dim SQL_QUERY As String
+        SQL_QUERY = "  " _
+                & " SELECT nc.idEncFactura, nc.idEncRecibo, f.estado AS estadoFactura, r.estado AS estadoRecibo " _
+                & " FROM CNOTACREDITO nc " _
+                & " LEFT JOIN CFACTURA f ON nc.idEncFactura = f.id_encFactura " _
+                & " LEFT JOIN CRECIBO r ON nc.idEncRecibo = r.id_encRecibo " _
+                & " WHERE nc.id_EncNc = " & idNc
+        Return objCe.GetDataSet(SQL_QUERY)
+    End Function
+
+    ' --- Nueva función centralizada ---
+    Public Function anularNotaCreditoBD(ByVal idNc As String, ByVal usuario As String, ByVal motivo As String) As Integer
+        Dim SQL_QUERY As String
+        SQL_QUERY = " " _
+                & " UPDATE CNOTACREDITO " _
+                & "SET estado = 2, " _
+                & "usuarioAnula = '" & usuario & "', " _
+                & "fechaAnula = GETDATE(), " _
+                & "WHERE id_EncNc = " & idNc
+        Return objCe.SetExecute(SQL_QUERY)
+    End Function
+
+
+
 End Class

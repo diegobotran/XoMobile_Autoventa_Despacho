@@ -101,7 +101,7 @@ Partial Public Class frmBrindis
         Me.lblFecha.Location = New System.Drawing.Point(3, 4)
         Me.lblFecha.Name = "lblFecha"
         Me.lblFecha.Size = New System.Drawing.Size(77, 18)
-        Me.lblFecha.Text = "23/07/2011"
+        Me.lblFecha.Text = "28/08/2025"
         '
         'lblHora
         '
@@ -178,7 +178,7 @@ Partial Public Class frmBrindis
         Me.LinkLabel1.Name = "LinkLabel1"
         Me.LinkLabel1.Size = New System.Drawing.Size(233, 20)
         Me.LinkLabel1.TabIndex = 16
-        Me.LinkLabel1.Text = "XO MOBILE - FEL 1.7.3 - VER. 4.0 - 2023"
+        Me.LinkLabel1.Text = "XO MOBILE FEL-ROL-NC 1.7.3 17.11.2025"
         Me.LinkLabel1.TextAlign = System.Drawing.ContentAlignment.TopCenter
         '
         'panTiempo

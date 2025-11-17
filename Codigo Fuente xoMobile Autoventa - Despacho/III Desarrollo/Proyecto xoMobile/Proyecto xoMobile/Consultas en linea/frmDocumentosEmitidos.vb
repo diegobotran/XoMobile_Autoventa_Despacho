@@ -493,7 +493,34 @@ Public Class frmDocumentosEmitidos
                     Case 4
                         seleccionoItem(lstCambio, idDocumento)
                     Case 2
-                        MsgBox("No se pueden anular Notas de Credito directamente.")
+                        'MsgBox("No se pueden anular Notas de Credito directamente.")
+                        'Diego: Incorporo una modalidad para poder anular Notas de Crédito sí y solo sí el documento padre (Recibo o Factura) 
+                        'ya fue anulado y por alguna razón fallo la anulación en cascada 
+                        ' --- Intentar anulación directa de Nota de Crédito ---
+                        Try
+                            ' Obtener el id de la nota seleccionada
+                            Dim itemSelected = Me.lstNotaCredito.SelectedIndices(0)
+                            Dim idNotaCredito As String = dtNc.Rows(itemSelected).Item("id_encNc").ToString()
+                            Dim idCliente As String = dtNc.Rows(itemSelected).Item("Codigo").ToString()
+
+                            ' Instanciar la capa de negocio
+                            Dim objDocumento As New DocumentoBL
+
+                            ' Verificar si el documento padre (Factura o Recibo) ya está anulado
+                            If objDocumento.puedeAnularNotaCredito(idNotaCredito) Then
+                                If objDocumento.anularNotaCreditoIndividual(idNotaCredito, idCliente, "Anulación manual posterior a fallo") Then
+                                    MsgBox("La nota de crédito fue anulada correctamente.", MsgBoxStyle.Information)
+                                Else
+                                    MsgBox("Ocurrió un error al intentar anular la nota de crédito.", MsgBoxStyle.Exclamation)
+                                End If
+                            Else
+                                MsgBox("No puede anular esta nota de crédito porque su documento origen aún está activo.", MsgBoxStyle.Information)
+                            End If
+
+                        Catch ex As Exception
+                            MsgBox("Error al intentar anular la nota de crédito: " & ex.Message, MsgBoxStyle.Critical)
+                        End Try
+
                 End Select
             Else
                 MsgBox("Se ha deshabilitado la anulacion de documentos.")
@@ -1607,7 +1634,7 @@ Public Class frmDocumentosEmitidos
                     MessageBox.Show("ESTE DOCUMENTO YA FUE OPERADO EN FEL")
                 Else
                     If lstNotaCredito.Items(itemSelected).BackColor = xoInfomat Then
-                        Dim docAsociado As String
+                        'Dim docAsociado As String
                         Dim Recibo As New documentoCO
                         Dim Factura As New documentoCO
                         Dim Cliente As New ClienteCO
@@ -1718,5 +1745,9 @@ Public Class frmDocumentosEmitidos
         Catch ex As Exception
             MsgBox(ex.Message())
         End Try
+    End Sub
+
+    Private Sub lstFacturas_SelectedIndexChanged(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles lstFacturas.SelectedIndexChanged
+
     End Sub
 End Class
