@@ -1,0 +1,80 @@
+C:\Users\diazg\Downloads\DataGrid\DataGrid\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Downloads\DataGrid\DataGrid\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Downloads\DataGrid\DataGrid\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Downloads\DataGrid\DataGrid\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Downloads\DataGrid\DataGrid\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Desktop\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace - copia - copia\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace - copia - copia\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace - copia - copia\xoMobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace - copia - copia\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace - copia - copia\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Downloads\My Workspace\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Downloads\My Workspace\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Downloads\My Workspace\My Workspace\xoMobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Downloads\My Workspace\My Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Downloads\My Workspace\My Workspace\xoMobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xo-mobile\Appl\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xo-mobile\Appl\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xo-mobile\Appl\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xo-mobile\Appl\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xo-mobile\Appl\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\tmpxomobile_wm5\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\tmpxomobile_wm5\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\tmpxomobile_wm5\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Desktop\tmpxomobile_wm5\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\tmpxomobile_wm5\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xomobile\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xomobile\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xomobile\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xomobile\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xomobile\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\vt\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\vt\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\vt\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\vt\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\vt\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Desktop\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Desktop\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Desktop\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\Punto de Venta Movil\My Workspace\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile Multisociedad\xomobile - IL01\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile 1.0\III Desarrollo\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile 1.0\III Desarrollo\xomobile\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile 1.0\III Desarrollo\xomobile\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile 1.0\III Desarrollo\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile 1.0\III Desarrollo\xomobile\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\DataGridCustomColumns\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\DataGridCustomColumns\obj\Debug\DataGridCustomColumns.pdb

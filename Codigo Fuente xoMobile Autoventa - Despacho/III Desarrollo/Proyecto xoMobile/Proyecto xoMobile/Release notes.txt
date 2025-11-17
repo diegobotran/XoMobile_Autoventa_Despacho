@@ -1,0 +1,118 @@
+xoMobile 2.0					--- DATOS DEL EJECUTABLE ---
+Proyecto Fenix					Tamaño en bytes SAT:
+						        Fecha de creacion  : dd.mm.yyyy  hh:mm:ss 
+
+RELEASE 1 - 05/04/2016
+------------------------------------------------------------------------------------------
+Se creo un nuevo ws para consultar CXC pasando como parametro la fecha de carga
+
+RELEASE 2 - 08/04/2016
+------------------------------------------------------------------------------------------
+Se mejoro el ingreso de unidades evitando que se ingresen unidades 0 y alertando del borrado 
+con el boton Bote de basura.
+Resuelto bug de impresion de liquidacion larga
+
+RELEASE 3 - 21/04/2016
+-------------------------------------------------------------------------------------------
+Las llamadas a webservice que requieren fecha de carga se agrego el parametro
+   *xoGetCuentaPorCobrar2(id_glo_codRuta, id_glo_sociedad, co_glo_fechaCarga)
+   *xoGetClusterSegmentacion(id_glo_sociedad, id_glo_codRuta, co_glo_fechaCarga)
+   *xoGetPrecios(id_glo_codRuta, id_glo_sociedad, "x", co_glo_fechaCarga)
+   
+Se agrego el campo FILKD  a Webservice getCxc()
+
+Permite omitir la verificacion de carga de producto cuando en CPANEL se han
+desactivido los cheques de pasos de atencion de despacho o venta
+
+BUG RESUELTOS 
+=============
+1. Al realizar una recarga el id codigo de ruta se estaba alterando provocando que al exportar datos
+no se compense correctamente las devoluciones
+
+2. Cancelar la toma de inventario sin realizar operaciones pone en verde el paso de atencion
+
+RELEASE 4 - 18.05.2016
+-------------------------------------------------------------------------------------------------
+1.la funcion de importar asigna vias de pago se cambio por la version _2 [xoGetAsignaViasPago_2] que trae los datos de 
+asignacion de la RFC clientes
+
+
+RELEASE 5- 24.05.216
+-------------------------------------------------------------------------------------------------
+1. La forma de calcular el credito disponible se hace en base a la cxc + recibos emitidos de facturas de credito
+2. se agrego el boton salir a la pantalla de pedidos
+3. Se muestran todos los clientes sin importar el dia de visita seleccionado
+
+
+BUG RESUELTOS 
+=============
+1. Se elimino el filtro idRuta de la impresion de documentos emitidos porque estaba generando incosistencia en la impresion 
+del reporte de documentos emitidos.
+
+
+RELEASE 6, 7 y 8 - 03.06.2016
+-------------------------------------------------------------------------------------------------
+1. se modifico la RCX para que envie el dtipo de la CXC concatenado en el recibo de interface
+
+
+RELEASE 9- 23.08.2016
+-------------------------------------------------------------------------------------------------
+1. Agregar cliente nuevo
+2. Toma georeferencia
+
+BUG RESUELTOS 
+=============
+1. Problema de impresion cortada en liquidacion
+2. Busqueda de clientes y articulos mejorado
+3. Ingreso y salida de la opcion de inventario
+
+
+RELEASE 10 - 24.08.2016
+-------------------------------------------------------------------------------------------------
+1. Agregar el campo Giro de negoci al cliente nuevo
+
+RELEASE 11 - 16.09.2016
+1. Se mejoro la cohesión del metodo de descuentos de temporada alta, la llamada a descuentos especiales se hace desde
+   el workflow como un paso adicional. 
+2. En la consulta se agrego la visualizacion  previa del descuento y se reacomodaron las longitudes de las columnas
+3. Se reacomodo la longitud de las columnas de la pantalla de ingreso
+
+
+
+RELEASE 12 - 22.11.2016
+1. Agregar Campos LitrosVendidos y tTipo para sacar los litros vendidos de producto en Inventario.vb metodo getMovimientos
+2. Se agrego la etiqueta de Litros Vendidos en el comprobante de P R O D U C T O   V E N D I D O al final del documento
+3. Se Agrego un intermitente (@) de impresión en la factura debido a que no se imprimia las ultimas líneas.
+4. Resolver el problema de venta Credito y Contador en WorkFlowVenta ya que el descuento se estaba acumulando y salía mala la impresión.
+5. Se resolvió el problema de despacho ya que en los documentos de contados aparecia habilitado el campo de Credito (StepRecuperaPedido)
+
+RELEASE 13 - 16.12.2016
+1. Se cambio la referencia del calculo del iva para los despachos de productos cuando la forma de pago es efectivo.
+2. Se cambio el calculo del Iva en el Web Service ya que dicha columna fue tomada directamente de la RFC de SAP.
+3. Se corrigio la columna en la tabla de la base de datos xomData  tabla (CINVENTARIO_FISICO).
+4. Cambio en la clase ceImport.vb metodo importIntoDESPACHO de la columna "ZDESCUENTO"
+5. Se agrego la columna litrosVendidos en la pantalla de HH y la impresión del reporte.
+6. Correción del almacenamiento y procesamiento del Importe Sin Iva en los depachos de contado.
+
+
+RELEASE 14 - 04.04.2017 - Pedro Coyoy -
+1. Problema al seleccionar productos para vender o despachar se puede cambiar los componentes de un material
+2. Se procedió a bloquear componentes de material cuando ya se haya seleccionado un material para despachar
+3. Se procedió a bloquear la busqueda y el botón cerrar
+4. Activación de los botones para cuando termine de operar el material seleccionado
+
+RELEASE 15 - 24.04.2017 - Pedro Coyoy -
+1. Corrección en el procedimiento del Export xo_get_factura_Encabezado()
+2. Se cambio el id_pedido ya que actualmente le hace falta un (0) por lo que al momento de agregarlo en el pedido completo de import despliega error en la aplicación
+3. Se procedio agregar un (0) en el export de los documentos aunque en HH lo maneje sin ese (0) por lo que mostramos la solución
+4. substring(F.id_pedido,1,1) + '0' + substring(F.id_pedido,2,11) que representa el idPedido completo 
+
+RELEASE 16 - 21.11.2018 - Pedro Coyoy -
+1. Se realizo la corrección de la facturas que se imprimen en blanco ya que por motivos de auditoria solicitaron realizar el cambio siguiente
+1.1 Las facturas operadas a cliente vario se imprimen a CONSUMIDOR FINAL con NIT C/F
+1.2 Las facturas operadas como faltantes se imprimen con los datos del nombre de vendedor y NIT
+2. Correccion en el corte de impresión para nueva impresora RP4 Honeywell ya que esta se esta quedando a medias con la impresión
+2.1 Se trabajaron en unos cambios en el modelo de impresión de facturas, recibos, notas de credito para que se impriman de forma completa.
+
+
+

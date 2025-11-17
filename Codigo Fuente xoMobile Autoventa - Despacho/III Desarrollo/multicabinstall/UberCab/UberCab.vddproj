@@ -1,0 +1,344 @@
+"DeployProject"
+{
+"VSVersion" = "3:701"
+"ProjectType" = "8:{AB322303-2255-48EF-A496-5904EB18DA55}"
+"IsWebType" = "8:FALSE"
+"ProjectName" = "8:xoMobileSetup"
+"LanguageId" = "3:1033"
+"CodePage" = "3:1252"
+"SccProjectName" = "8:"
+"SccLocalPath" = "8:"
+"SccAuxPath" = "8:"
+"SccProvider" = "8:"
+    "Hierarchy"
+    {
+        "Entry"
+        {
+        "MsmKey" = "8:_160D5AF2962F4214944E45FEF6B6EE65"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_208062E6C92943EBA2A0694C4D060710"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3652BB497A5F4F459F9277FB98213413"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_70D279C376184164AD8A76CF29F50694"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_CC24C0609F24442C9619AA6763FB83A2"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_F23D51FB82A143BBABBBF07205ECCB7B"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+    }
+    "Configurations"
+    {
+        "Debug"
+        {
+        "DisplayName" = "8:Debug"
+        "IsDebugOnly" = "11:TRUE"
+        "IsReleaseOnly" = "11:FALSE"
+        "OutputFilename" = "8:Debug\\xoMobileSetup.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+        "Release"
+        {
+        "DisplayName" = "8:Release"
+        "IsDebugOnly" = "11:FALSE"
+        "IsReleaseOnly" = "11:TRUE"
+        "OutputFilename" = "8:Release\\UberCab.cab"
+        "PackageFileSize" = "3:-2147483648"
+        "CabType" = "3:1"
+        "SignOutput" = "11:FALSE"
+        "CertificateHash" = "8:"
+        "TimeStampServer" = "8:"
+        }
+    }
+    "Deployable"
+    {
+        "File"
+        {
+            "{BA458234-9B71-4F46-8107-E91156377184}:_160D5AF2962F4214944E45FEF6B6EE65"
+            {
+            "SourcePath" = "8:..\\mcsetup\\Windows Mobile 6 Professional SDK (ARMV4I)\\Debug\\MCSetup.dll"
+            "TargetName" = "8:MCSetup.dll"
+            "Tag" = "8:"
+            "Folder" = "8:_66953326417446C191DFC3ECE8F123F8"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_208062E6C92943EBA2A0694C4D060710"
+            {
+            "SourcePath" = "8:..\\..\\Release\\Prerrequisitos\\NETCFv35.wm.armv4i.cab"
+            "TargetName" = "8:NETCFv35.wm.armv4i.cab"
+            "Tag" = "8:"
+            "Folder" = "8:_EE0D08DDA177433586569A2E3A97B97B"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_3652BB497A5F4F459F9277FB98213413"
+            {
+            "SourcePath" = "8:..\\..\\Release\\Prerrequisitos\\sqlce.ppc.wce5.armv4i.CAB"
+            "TargetName" = "8:sqlce.ppc.wce5.armv4i.CAB"
+            "Tag" = "8:"
+            "Folder" = "8:_EE0D08DDA177433586569A2E3A97B97B"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_70D279C376184164AD8A76CF29F50694"
+            {
+            "SourcePath" = "8:..\\..\\Release\\Prerrequisitos\\NETCFv35.Messages.ES.wm.cab"
+            "TargetName" = "8:NETCFv35.Messages.ES.wm.cab"
+            "Tag" = "8:"
+            "Folder" = "8:_EE0D08DDA177433586569A2E3A97B97B"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_CC24C0609F24442C9619AA6763FB83A2"
+            {
+            "SourcePath" = "8:..\\multicab\\Windows Mobile 6 Professional SDK (ARMV4I)\\Debug\\multicab.exe"
+            "TargetName" = "8:multicab.exe"
+            "Tag" = "8:"
+            "Folder" = "8:_EE0D08DDA177433586569A2E3A97B97B"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+            "{BA458234-9B71-4F46-8107-E91156377184}:_F23D51FB82A143BBABBBF07205ECCB7B"
+            {
+            "SourcePath" = "8:..\\..\\setup\\Debug\\XoMobile.CAB"
+            "TargetName" = "8:XoMobile.CAB"
+            "Tag" = "8:"
+            "Folder" = "8:_EE0D08DDA177433586569A2E3A97B97B"
+            "Condition" = "8:"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "Register" = "3:0"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
+        }
+        "Folder"
+        {
+            "{F6DFDB62-1DD1-498B-89B7-27BAC542EE5A}:_66953326417446C191DFC3ECE8F123F8"
+            {
+            "Name" = "8:#1911"
+            "Condition" = "8:"
+            "Property" = "8:%CE1%"
+                "Folders"
+                {
+                }
+            }
+            "{D5B00AC1-E6C3-4CC5-90FF-8E0F53D9E5E0}:_EE0D08DDA177433586569A2E3A97B97B"
+            {
+            "DefaultLocation" = "8:%InstallDir%"
+            "Name" = "8:#1920"
+            "Condition" = "8:"
+            "Property" = "8:%InstallDir%"
+                "Folders"
+                {
+                }
+            }
+        }
+        "Product"
+        {
+        "Name" = "8:Microsoft Visual Studio"
+        "ProductName" = "8:xoMobileSetup-DLSA"
+        "Manufacturer" = "8:ILG"
+        "OSVersionMin" = "8:4.0"
+        "OSVersionMax" = "8:6.99"
+        "NoUninstall" = "11:FALSE"
+        "Compress" = "11:FALSE"
+        "CESetupDLL" = "8:_160D5AF2962F4214944E45FEF6B6EE65"
+        }
+        "ProjectOutput"
+        {
+        }
+        "Registry"
+        {
+            "HKLM"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKCU"
+            {
+                "Keys"
+                {
+                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_42342C35DA2B41AFAF0458252F109A52"
+                    {
+                    "Name" = "8:Software"
+                    "Condition" = "8:"
+                        "Keys"
+                        {
+                            "{B1EBC968-6B66-4532-A885-748B79AF4477}:_27B780D998FE4F5C8427CDDAEAB1577E"
+                            {
+                            "Name" = "8:ChainedXoMobile"
+                            "Condition" = "8:"
+                                "Keys"
+                                {
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_289D5DC3074C43E2884485E9C9CE3815"
+                                    {
+                                    "Name" = "8:MultiCab"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                        }
+                                        "Values"
+                                        {
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_30710698B1244FE183C1B853D9ADFF9A"
+                                            {
+                                            "Name" = "8:InstallCabName"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:xoMobileSetup"
+                                            }
+                                        }
+                                    }
+                                    "{B1EBC968-6B66-4532-A885-748B79AF4477}:_49A165C9203E4194A919B04AA9592083"
+                                    {
+                                    "Name" = "8:xoMobileSetup"
+                                    "Condition" = "8:"
+                                        "Keys"
+                                        {
+                                        }
+                                        "Values"
+                                        {
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_599BA8ACD49145F0A22988BB5E2A52DD"
+                                            {
+                                            "Name" = "8:3"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:\\Program Files\\xoMobileSetup\\NETCFv35.Messages.ES.wm.cab"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_8329B68D891240F98D3BEAB5FED682A4"
+                                            {
+                                            "Name" = "8:1"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:\\Program Files\\xoMobileSetup\\XoMobile.CAB"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_BE0551EFF9834C8FB3E199DACC046CD6"
+                                            {
+                                            "Name" = "8:2"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:\\Program Files\\xoMobileSetup\\sqlce.ppc.wce5.armv4i.CAB"
+                                            }
+                                            "{C3684F64-58E2-4092-8E3C-D7483080DE5A}:_E05B1711FE034BE39ED753AF3C875818"
+                                            {
+                                            "Name" = "8:4"
+                                            "Condition" = "8:"
+                                            "ValueTypes" = "3:1"
+                                            "Value" = "8:\\Program Files\\xoMobileSetup\\NETCFv35.wm.armv4i.cab"
+                                            }
+                                        }
+                                    }
+                                }
+                                "Values"
+                                {
+                                }
+                            }
+                        }
+                        "Values"
+                        {
+                        }
+                    }
+                }
+            }
+            "HKCR"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKU"
+            {
+                "Keys"
+                {
+                }
+            }
+            "HKPU"
+            {
+                "Keys"
+                {
+                }
+            }
+        }
+        "Shortcut"
+        {
+        }
+    }
+}

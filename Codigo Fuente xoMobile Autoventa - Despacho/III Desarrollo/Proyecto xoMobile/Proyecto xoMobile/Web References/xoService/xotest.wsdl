@@ -1,0 +1,2450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="xoTestConn">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoTestConnResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoTestConnResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoExportar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsxo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="res" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoExportarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoExportarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="res" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="escribirArchivo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="f" type="s:base64Binary" />
+            <s:element minOccurs="0" maxOccurs="1" name="fileName" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="escribirArchivoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="escribirArchivoResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_ClienteNuevo">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsxo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="res" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_ClienteNuevoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoFun_ClienteNuevoResult" type="tns:ServiceHollaBack" />
+            <s:element minOccurs="0" maxOccurs="1" name="res" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ServiceHollaBack">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="resultado" type="s:boolean" />
+          <s:element minOccurs="0" maxOccurs="1" name="mensaje" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="de" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="para" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="datos">
+            <s:complexType>
+              <s:sequence>
+                <s:element ref="s:schema" />
+                <s:any />
+              </s:sequence>
+            </s:complexType>
+          </s:element>
+        </s:sequence>
+      </s:complexType>
+      <s:element name="xoFun_correlativoSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dsxo">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_correlativoSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="xoFun_correlativoSAPResult" type="s:boolean" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_Resolucion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtExport">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_ResolucionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="xoFun_ResolucionResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_Workflow">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="dtExport">
+              <s:complexType>
+                <s:sequence>
+                  <s:any minOccurs="0" maxOccurs="unbounded" namespace="http://www.w3.org/2001/XMLSchema" processContents="lax" />
+                  <s:any minOccurs="1" namespace="urn:schemas-microsoft-com:xml-diffgram-v1" processContents="lax" />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoFun_WorkflowResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="xoFun_WorkflowResult" type="s:boolean" />
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetAsignaViasPago">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetAsignaViasPagoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetAsignaViasPagoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetDeptos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetDeptosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetDeptosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetAsignaViasPago_2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaDespacho" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetAsignaViasPago_2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetAsignaViasPago_2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetBoom">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoGetBoomResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetBoomResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetBoom_">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="psociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetBoom_Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetBoom_Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCentro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCentroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCentroResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCentroPv">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCentroPvResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCentroPvResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetClusterSegmentacion">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetClusterSegmentacionResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetClusterSegmentacionResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCarga2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCarga2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCarga2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCarga">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCargaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCargaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCarga3">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCarga3Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCarga3Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetClientes">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaDespacho" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetClientesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetClientesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCuentaPorCobrar">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCuentaPorCobrarResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCuentaPorCobrarResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCuentaPorCobrar2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fecha" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetCuentaPorCobrar2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetCuentaPorCobrar2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetDespachos_2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetDespachos_2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetDespachos_2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetEncuesta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetEncuestaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetEncuestaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetFel">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetFelResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetFelResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetFel2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetFel2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetFel2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetFormasPago">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoGetFormasPagoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetFormasPagoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetRango">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoGetRangoResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetRangoResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetLockMateriales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetLockMaterialesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetLockMaterialesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMateriales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMaterialesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetMaterialesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMateriales2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMateriales2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetMateriales2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMarkers">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pSociedad" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="pFecha" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="pOficina" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pGrupov" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="pRuta" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetMarkersResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetMarkersResult" type="tns:ServiceHollaBack" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPreciosDescuentos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPreciosDescuentosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetPreciosDescuentosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetDiaVisita">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoGetDiaVisitaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetDiaVisitaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPrecios">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="isMultilista" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fechaCarga" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPreciosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetPreciosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPreguntasInicialesFinales">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPreguntasInicialesFinalesResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetPreguntasInicialesFinalesResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionesSapHH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionesSapHHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetResolucionesSapHHResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetRazonesNV">
+        <s:complexType />
+      </s:element>
+      <s:element name="xoGetRazonesNVResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetRazonesNVResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetRuta">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetRutaResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetRutaResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetContingenciaImp">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="pruta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetContingenciaImpResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetContingenciaImpResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetTipos">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetTiposResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetTiposResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetUsuarios">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetUsuariosResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetUsuariosResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowSAPHH">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idRuta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowSAPHHResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetWorkflowSAPHHResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowGiro">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowGiroResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetWorkflowGiroResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPresupuestoCliente">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="ruta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fecha" type="s:dateTime" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetPresupuestoClienteResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetPresupuestoClienteResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetHistorial">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idruta" type="s:string" />
+            <s:element minOccurs="1" maxOccurs="1" name="fecha" type="s:dateTime" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetHistorialResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetHistorialResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetResolucionSAPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAPB">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAPBResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetResolucionSAPBResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAP2">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetResolucionSAP2Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetResolucionSAP2Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+            <s:element minOccurs="0" maxOccurs="1" name="zText" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowSAP">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="idRuta" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sociedad" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="xoGetWorkflowSAPResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="xoGetWorkflowSAPResult">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="xoTestConnSoapIn">
+    <wsdl:part name="parameters" element="tns:xoTestConn" />
+  </wsdl:message>
+  <wsdl:message name="xoTestConnSoapOut">
+    <wsdl:part name="parameters" element="tns:xoTestConnResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoExportarSoapIn">
+    <wsdl:part name="parameters" element="tns:xoExportar" />
+  </wsdl:message>
+  <wsdl:message name="xoExportarSoapOut">
+    <wsdl:part name="parameters" element="tns:xoExportarResponse" />
+  </wsdl:message>
+  <wsdl:message name="escribirArchivoSoapIn">
+    <wsdl:part name="parameters" element="tns:escribirArchivo" />
+  </wsdl:message>
+  <wsdl:message name="escribirArchivoSoapOut">
+    <wsdl:part name="parameters" element="tns:escribirArchivoResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_ClienteNuevoSoapIn">
+    <wsdl:part name="parameters" element="tns:xoFun_ClienteNuevo" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_ClienteNuevoSoapOut">
+    <wsdl:part name="parameters" element="tns:xoFun_ClienteNuevoResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_correlativoSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:xoFun_correlativoSAP" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_correlativoSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:xoFun_correlativoSAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_ResolucionSoapIn">
+    <wsdl:part name="parameters" element="tns:xoFun_Resolucion" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_ResolucionSoapOut">
+    <wsdl:part name="parameters" element="tns:xoFun_ResolucionResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_WorkflowSoapIn">
+    <wsdl:part name="parameters" element="tns:xoFun_Workflow" />
+  </wsdl:message>
+  <wsdl:message name="xoFun_WorkflowSoapOut">
+    <wsdl:part name="parameters" element="tns:xoFun_WorkflowResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetAsignaViasPagoSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetAsignaViasPago" />
+  </wsdl:message>
+  <wsdl:message name="xoGetAsignaViasPagoSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetAsignaViasPagoResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDeptosSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetDeptos" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDeptosSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetDeptosResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetAsignaViasPago_2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetAsignaViasPago_2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetAsignaViasPago_2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetAsignaViasPago_2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetBoomSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetBoom" />
+  </wsdl:message>
+  <wsdl:message name="xoGetBoomSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetBoomResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetBoom_SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetBoom_" />
+  </wsdl:message>
+  <wsdl:message name="xoGetBoom_SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetBoom_Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCentroSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCentro" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCentroSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCentroResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCentroPvSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCentroPv" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCentroPvSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCentroPvResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetClusterSegmentacionSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetClusterSegmentacion" />
+  </wsdl:message>
+  <wsdl:message name="xoGetClusterSegmentacionSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetClusterSegmentacionResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCarga2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCarga2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCarga2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCarga2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCargaSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCarga" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCargaSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCargaResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCarga3SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCarga3" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCarga3SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCarga3Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetClientesSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetClientes" />
+  </wsdl:message>
+  <wsdl:message name="xoGetClientesSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetClientesResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCuentaPorCobrarSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCuentaPorCobrar" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCuentaPorCobrarSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCuentaPorCobrarResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCuentaPorCobrar2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetCuentaPorCobrar2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetCuentaPorCobrar2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetCuentaPorCobrar2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDespachos_2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetDespachos_2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDespachos_2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetDespachos_2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetEncuestaSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetEncuesta" />
+  </wsdl:message>
+  <wsdl:message name="xoGetEncuestaSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetEncuestaResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFelSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetFel" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFelSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetFelResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFel2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetFel2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFel2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetFel2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFormasPagoSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetFormasPago" />
+  </wsdl:message>
+  <wsdl:message name="xoGetFormasPagoSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetFormasPagoResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRangoSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetRango" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRangoSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetRangoResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetLockMaterialesSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetLockMateriales" />
+  </wsdl:message>
+  <wsdl:message name="xoGetLockMaterialesSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetLockMaterialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMaterialesSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetMateriales" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMaterialesSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetMaterialesResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMateriales2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetMateriales2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMateriales2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetMateriales2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMarkersSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetMarkers" />
+  </wsdl:message>
+  <wsdl:message name="xoGetMarkersSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetMarkersResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreciosDescuentosSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetPreciosDescuentos" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreciosDescuentosSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetPreciosDescuentosResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDiaVisitaSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetDiaVisita" />
+  </wsdl:message>
+  <wsdl:message name="xoGetDiaVisitaSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetDiaVisitaResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreciosSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetPrecios" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreciosSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetPreciosResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreguntasInicialesFinalesSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetPreguntasInicialesFinales" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPreguntasInicialesFinalesSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetPreguntasInicialesFinalesResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionesSapHHSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionesSapHH" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionesSapHHSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionesSapHHResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRazonesNVSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetRazonesNV" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRazonesNVSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetRazonesNVResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRutaSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetRuta" />
+  </wsdl:message>
+  <wsdl:message name="xoGetRutaSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetRutaResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetContingenciaImpSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetContingenciaImp" />
+  </wsdl:message>
+  <wsdl:message name="xoGetContingenciaImpSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetContingenciaImpResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetTiposSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetTipos" />
+  </wsdl:message>
+  <wsdl:message name="xoGetTiposSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetTiposResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetUsuariosSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetUsuarios" />
+  </wsdl:message>
+  <wsdl:message name="xoGetUsuariosSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetUsuariosResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowSAPHHSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowSAPHH" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowSAPHHSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowSAPHHResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowGiroSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowGiro" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowGiroSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowGiroResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPresupuestoClienteSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetPresupuestoCliente" />
+  </wsdl:message>
+  <wsdl:message name="xoGetPresupuestoClienteSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetPresupuestoClienteResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetHistorialSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetHistorial" />
+  </wsdl:message>
+  <wsdl:message name="xoGetHistorialSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetHistorialResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAP" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAPResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAPBSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAPB" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAPBSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAPBResponse" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAP2SoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAP2" />
+  </wsdl:message>
+  <wsdl:message name="xoGetResolucionSAP2SoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetResolucionSAP2Response" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowSAPSoapIn">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowSAP" />
+  </wsdl:message>
+  <wsdl:message name="xoGetWorkflowSAPSoapOut">
+    <wsdl:part name="parameters" element="tns:xoGetWorkflowSAPResponse" />
+  </wsdl:message>
+  <wsdl:portType name="xotestSoap">
+    <wsdl:operation name="xoTestConn">
+      <wsdl:input message="tns:xoTestConnSoapIn" />
+      <wsdl:output message="tns:xoTestConnSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoExportar">
+      <wsdl:input message="tns:xoExportarSoapIn" />
+      <wsdl:output message="tns:xoExportarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="escribirArchivo">
+      <wsdl:input message="tns:escribirArchivoSoapIn" />
+      <wsdl:output message="tns:escribirArchivoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_ClienteNuevo">
+      <wsdl:input message="tns:xoFun_ClienteNuevoSoapIn" />
+      <wsdl:output message="tns:xoFun_ClienteNuevoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_correlativoSAP">
+      <wsdl:input message="tns:xoFun_correlativoSAPSoapIn" />
+      <wsdl:output message="tns:xoFun_correlativoSAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Resolucion">
+      <wsdl:input message="tns:xoFun_ResolucionSoapIn" />
+      <wsdl:output message="tns:xoFun_ResolucionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Workflow">
+      <wsdl:input message="tns:xoFun_WorkflowSoapIn" />
+      <wsdl:output message="tns:xoFun_WorkflowSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago">
+      <wsdl:input message="tns:xoGetAsignaViasPagoSoapIn" />
+      <wsdl:output message="tns:xoGetAsignaViasPagoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDeptos">
+      <wsdl:input message="tns:xoGetDeptosSoapIn" />
+      <wsdl:output message="tns:xoGetDeptosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago_2">
+      <wsdl:input message="tns:xoGetAsignaViasPago_2SoapIn" />
+      <wsdl:output message="tns:xoGetAsignaViasPago_2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom">
+      <wsdl:input message="tns:xoGetBoomSoapIn" />
+      <wsdl:output message="tns:xoGetBoomSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom_">
+      <wsdl:input message="tns:xoGetBoom_SoapIn" />
+      <wsdl:output message="tns:xoGetBoom_SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentro">
+      <wsdl:input message="tns:xoGetCentroSoapIn" />
+      <wsdl:output message="tns:xoGetCentroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentroPv">
+      <wsdl:input message="tns:xoGetCentroPvSoapIn" />
+      <wsdl:output message="tns:xoGetCentroPvSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClusterSegmentacion">
+      <wsdl:input message="tns:xoGetClusterSegmentacionSoapIn" />
+      <wsdl:output message="tns:xoGetClusterSegmentacionSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga2">
+      <wsdl:input message="tns:xoGetCarga2SoapIn" />
+      <wsdl:output message="tns:xoGetCarga2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga">
+      <wsdl:input message="tns:xoGetCargaSoapIn" />
+      <wsdl:output message="tns:xoGetCargaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga3">
+      <wsdl:input message="tns:xoGetCarga3SoapIn" />
+      <wsdl:output message="tns:xoGetCarga3SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClientes">
+      <wsdl:input message="tns:xoGetClientesSoapIn" />
+      <wsdl:output message="tns:xoGetClientesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar">
+      <wsdl:input message="tns:xoGetCuentaPorCobrarSoapIn" />
+      <wsdl:output message="tns:xoGetCuentaPorCobrarSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar2">
+      <wsdl:input message="tns:xoGetCuentaPorCobrar2SoapIn" />
+      <wsdl:output message="tns:xoGetCuentaPorCobrar2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDespachos_2">
+      <wsdl:input message="tns:xoGetDespachos_2SoapIn" />
+      <wsdl:output message="tns:xoGetDespachos_2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetEncuesta">
+      <wsdl:input message="tns:xoGetEncuestaSoapIn" />
+      <wsdl:output message="tns:xoGetEncuestaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel">
+      <wsdl:input message="tns:xoGetFelSoapIn" />
+      <wsdl:output message="tns:xoGetFelSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel2">
+      <wsdl:input message="tns:xoGetFel2SoapIn" />
+      <wsdl:output message="tns:xoGetFel2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFormasPago">
+      <wsdl:input message="tns:xoGetFormasPagoSoapIn" />
+      <wsdl:output message="tns:xoGetFormasPagoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRango">
+      <wsdl:input message="tns:xoGetRangoSoapIn" />
+      <wsdl:output message="tns:xoGetRangoSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetLockMateriales">
+      <wsdl:input message="tns:xoGetLockMaterialesSoapIn" />
+      <wsdl:output message="tns:xoGetLockMaterialesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales">
+      <wsdl:input message="tns:xoGetMaterialesSoapIn" />
+      <wsdl:output message="tns:xoGetMaterialesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales2">
+      <wsdl:input message="tns:xoGetMateriales2SoapIn" />
+      <wsdl:output message="tns:xoGetMateriales2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMarkers">
+      <wsdl:input message="tns:xoGetMarkersSoapIn" />
+      <wsdl:output message="tns:xoGetMarkersSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreciosDescuentos">
+      <wsdl:input message="tns:xoGetPreciosDescuentosSoapIn" />
+      <wsdl:output message="tns:xoGetPreciosDescuentosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDiaVisita">
+      <wsdl:input message="tns:xoGetDiaVisitaSoapIn" />
+      <wsdl:output message="tns:xoGetDiaVisitaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPrecios">
+      <wsdl:input message="tns:xoGetPreciosSoapIn" />
+      <wsdl:output message="tns:xoGetPreciosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreguntasInicialesFinales">
+      <wsdl:input message="tns:xoGetPreguntasInicialesFinalesSoapIn" />
+      <wsdl:output message="tns:xoGetPreguntasInicialesFinalesSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionesSapHH">
+      <wsdl:input message="tns:xoGetResolucionesSapHHSoapIn" />
+      <wsdl:output message="tns:xoGetResolucionesSapHHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRazonesNV">
+      <wsdl:input message="tns:xoGetRazonesNVSoapIn" />
+      <wsdl:output message="tns:xoGetRazonesNVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRuta">
+      <wsdl:input message="tns:xoGetRutaSoapIn" />
+      <wsdl:output message="tns:xoGetRutaSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetContingenciaImp">
+      <wsdl:input message="tns:xoGetContingenciaImpSoapIn" />
+      <wsdl:output message="tns:xoGetContingenciaImpSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetTipos">
+      <wsdl:input message="tns:xoGetTiposSoapIn" />
+      <wsdl:output message="tns:xoGetTiposSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetUsuarios">
+      <wsdl:input message="tns:xoGetUsuariosSoapIn" />
+      <wsdl:output message="tns:xoGetUsuariosSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAPHH">
+      <wsdl:input message="tns:xoGetWorkflowSAPHHSoapIn" />
+      <wsdl:output message="tns:xoGetWorkflowSAPHHSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowGiro">
+      <wsdl:input message="tns:xoGetWorkflowGiroSoapIn" />
+      <wsdl:output message="tns:xoGetWorkflowGiroSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPresupuestoCliente">
+      <wsdl:input message="tns:xoGetPresupuestoClienteSoapIn" />
+      <wsdl:output message="tns:xoGetPresupuestoClienteSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetHistorial">
+      <wsdl:input message="tns:xoGetHistorialSoapIn" />
+      <wsdl:output message="tns:xoGetHistorialSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP">
+      <wsdl:input message="tns:xoGetResolucionSAPSoapIn" />
+      <wsdl:output message="tns:xoGetResolucionSAPSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAPB">
+      <wsdl:input message="tns:xoGetResolucionSAPBSoapIn" />
+      <wsdl:output message="tns:xoGetResolucionSAPBSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP2">
+      <wsdl:input message="tns:xoGetResolucionSAP2SoapIn" />
+      <wsdl:output message="tns:xoGetResolucionSAP2SoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAP">
+      <wsdl:input message="tns:xoGetWorkflowSAPSoapIn" />
+      <wsdl:output message="tns:xoGetWorkflowSAPSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="xotestSoap" type="tns:xotestSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="xoTestConn">
+      <soap:operation soapAction="http://tempuri.org/xoTestConn" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoExportar">
+      <soap:operation soapAction="http://tempuri.org/xoExportar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="escribirArchivo">
+      <soap:operation soapAction="http://tempuri.org/escribirArchivo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_ClienteNuevo">
+      <soap:operation soapAction="http://tempuri.org/xoFun_ClienteNuevo" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_correlativoSAP">
+      <soap:operation soapAction="http://tempuri.org/xoFun_correlativoSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Resolucion">
+      <soap:operation soapAction="http://tempuri.org/xoFun_Resolucion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Workflow">
+      <soap:operation soapAction="http://tempuri.org/xoFun_Workflow" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago">
+      <soap:operation soapAction="http://tempuri.org/xoGetAsignaViasPago" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDeptos">
+      <soap:operation soapAction="http://tempuri.org/xoGetDeptos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago_2">
+      <soap:operation soapAction="http://tempuri.org/xoGetAsignaViasPago_2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom">
+      <soap:operation soapAction="http://tempuri.org/xoGetBoom" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom_">
+      <soap:operation soapAction="http://tempuri.org/xoGetBoom_" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentro">
+      <soap:operation soapAction="http://tempuri.org/xoGetCentro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentroPv">
+      <soap:operation soapAction="http://tempuri.org/xoGetCentroPv" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClusterSegmentacion">
+      <soap:operation soapAction="http://tempuri.org/xoGetClusterSegmentacion" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga2">
+      <soap:operation soapAction="http://tempuri.org/xoGetCarga2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga">
+      <soap:operation soapAction="http://tempuri.org/xoGetCarga" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga3">
+      <soap:operation soapAction="http://tempuri.org/xoGetCarga3" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClientes">
+      <soap:operation soapAction="http://tempuri.org/xoGetClientes" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar">
+      <soap:operation soapAction="http://tempuri.org/xoGetCuentaPorCobrar" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar2">
+      <soap:operation soapAction="http://tempuri.org/xoGetCuentaPorCobrar2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDespachos_2">
+      <soap:operation soapAction="http://tempuri.org/xoGetDespachos_2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetEncuesta">
+      <soap:operation soapAction="http://tempuri.org/xoGetEncuesta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel">
+      <soap:operation soapAction="http://tempuri.org/xoGetFel" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel2">
+      <soap:operation soapAction="http://tempuri.org/xoGetFel2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFormasPago">
+      <soap:operation soapAction="http://tempuri.org/xoGetFormasPago" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRango">
+      <soap:operation soapAction="http://tempuri.org/xoGetRango" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetLockMateriales">
+      <soap:operation soapAction="http://tempuri.org/xoGetLockMateriales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales">
+      <soap:operation soapAction="http://tempuri.org/xoGetMateriales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales2">
+      <soap:operation soapAction="http://tempuri.org/xoGetMateriales2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMarkers">
+      <soap:operation soapAction="http://tempuri.org/xoGetMarkers" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreciosDescuentos">
+      <soap:operation soapAction="http://tempuri.org/xoGetPreciosDescuentos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDiaVisita">
+      <soap:operation soapAction="http://tempuri.org/xoGetDiaVisita" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPrecios">
+      <soap:operation soapAction="http://tempuri.org/xoGetPrecios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreguntasInicialesFinales">
+      <soap:operation soapAction="http://tempuri.org/xoGetPreguntasInicialesFinales" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionesSapHH">
+      <soap:operation soapAction="http://tempuri.org/xoGetResolucionesSapHH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRazonesNV">
+      <soap:operation soapAction="http://tempuri.org/xoGetRazonesNV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRuta">
+      <soap:operation soapAction="http://tempuri.org/xoGetRuta" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetContingenciaImp">
+      <soap:operation soapAction="http://tempuri.org/xoGetContingenciaImp" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetTipos">
+      <soap:operation soapAction="http://tempuri.org/xoGetTipos" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetUsuarios">
+      <soap:operation soapAction="http://tempuri.org/xoGetUsuarios" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAPHH">
+      <soap:operation soapAction="http://tempuri.org/xoGetWorkflowSAPHH" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowGiro">
+      <soap:operation soapAction="http://tempuri.org/xoGetWorkflowGiro" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPresupuestoCliente">
+      <soap:operation soapAction="http://tempuri.org/xoGetPresupuestoCliente" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetHistorial">
+      <soap:operation soapAction="http://tempuri.org/xoGetHistorial" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP">
+      <soap:operation soapAction="http://tempuri.org/xoGetResolucionSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAPB">
+      <soap:operation soapAction="http://tempuri.org/xoGetResolucionSAPB" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP2">
+      <soap:operation soapAction="http://tempuri.org/xoGetResolucionSAP2" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAP">
+      <soap:operation soapAction="http://tempuri.org/xoGetWorkflowSAP" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="xotestSoap12" type="tns:xotestSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="xoTestConn">
+      <soap12:operation soapAction="http://tempuri.org/xoTestConn" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoExportar">
+      <soap12:operation soapAction="http://tempuri.org/xoExportar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="escribirArchivo">
+      <soap12:operation soapAction="http://tempuri.org/escribirArchivo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_ClienteNuevo">
+      <soap12:operation soapAction="http://tempuri.org/xoFun_ClienteNuevo" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_correlativoSAP">
+      <soap12:operation soapAction="http://tempuri.org/xoFun_correlativoSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Resolucion">
+      <soap12:operation soapAction="http://tempuri.org/xoFun_Resolucion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoFun_Workflow">
+      <soap12:operation soapAction="http://tempuri.org/xoFun_Workflow" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago">
+      <soap12:operation soapAction="http://tempuri.org/xoGetAsignaViasPago" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDeptos">
+      <soap12:operation soapAction="http://tempuri.org/xoGetDeptos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetAsignaViasPago_2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetAsignaViasPago_2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom">
+      <soap12:operation soapAction="http://tempuri.org/xoGetBoom" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetBoom_">
+      <soap12:operation soapAction="http://tempuri.org/xoGetBoom_" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentro">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCentro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCentroPv">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCentroPv" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClusterSegmentacion">
+      <soap12:operation soapAction="http://tempuri.org/xoGetClusterSegmentacion" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCarga2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCarga" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCarga3">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCarga3" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetClientes">
+      <soap12:operation soapAction="http://tempuri.org/xoGetClientes" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCuentaPorCobrar" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetCuentaPorCobrar2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetCuentaPorCobrar2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDespachos_2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetDespachos_2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetEncuesta">
+      <soap12:operation soapAction="http://tempuri.org/xoGetEncuesta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel">
+      <soap12:operation soapAction="http://tempuri.org/xoGetFel" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFel2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetFel2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetFormasPago">
+      <soap12:operation soapAction="http://tempuri.org/xoGetFormasPago" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRango">
+      <soap12:operation soapAction="http://tempuri.org/xoGetRango" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetLockMateriales">
+      <soap12:operation soapAction="http://tempuri.org/xoGetLockMateriales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales">
+      <soap12:operation soapAction="http://tempuri.org/xoGetMateriales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMateriales2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetMateriales2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetMarkers">
+      <soap12:operation soapAction="http://tempuri.org/xoGetMarkers" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreciosDescuentos">
+      <soap12:operation soapAction="http://tempuri.org/xoGetPreciosDescuentos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetDiaVisita">
+      <soap12:operation soapAction="http://tempuri.org/xoGetDiaVisita" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPrecios">
+      <soap12:operation soapAction="http://tempuri.org/xoGetPrecios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPreguntasInicialesFinales">
+      <soap12:operation soapAction="http://tempuri.org/xoGetPreguntasInicialesFinales" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionesSapHH">
+      <soap12:operation soapAction="http://tempuri.org/xoGetResolucionesSapHH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRazonesNV">
+      <soap12:operation soapAction="http://tempuri.org/xoGetRazonesNV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetRuta">
+      <soap12:operation soapAction="http://tempuri.org/xoGetRuta" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetContingenciaImp">
+      <soap12:operation soapAction="http://tempuri.org/xoGetContingenciaImp" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetTipos">
+      <soap12:operation soapAction="http://tempuri.org/xoGetTipos" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetUsuarios">
+      <soap12:operation soapAction="http://tempuri.org/xoGetUsuarios" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAPHH">
+      <soap12:operation soapAction="http://tempuri.org/xoGetWorkflowSAPHH" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowGiro">
+      <soap12:operation soapAction="http://tempuri.org/xoGetWorkflowGiro" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetPresupuestoCliente">
+      <soap12:operation soapAction="http://tempuri.org/xoGetPresupuestoCliente" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetHistorial">
+      <soap12:operation soapAction="http://tempuri.org/xoGetHistorial" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP">
+      <soap12:operation soapAction="http://tempuri.org/xoGetResolucionSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAPB">
+      <soap12:operation soapAction="http://tempuri.org/xoGetResolucionSAPB" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetResolucionSAP2">
+      <soap12:operation soapAction="http://tempuri.org/xoGetResolucionSAP2" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="xoGetWorkflowSAP">
+      <soap12:operation soapAction="http://tempuri.org/xoGetWorkflowSAP" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="xotest">
+    <wsdl:port name="xotestSoap" binding="tns:xotestSoap">
+      <soap:address location="http://mixco19/xoService/xotest.asmx" />
+    </wsdl:port>
+    <wsdl:port name="xotestSoap12" binding="tns:xotestSoap12">
+      <soap12:address location="http://mixco19/xoService/xotest.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

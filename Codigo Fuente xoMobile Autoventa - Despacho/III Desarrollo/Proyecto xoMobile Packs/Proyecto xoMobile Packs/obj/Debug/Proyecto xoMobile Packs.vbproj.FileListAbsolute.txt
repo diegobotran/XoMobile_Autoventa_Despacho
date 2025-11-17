@@ -1,0 +1,80 @@
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto_xoMobile_Packs.Resources.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.vbproj.GenerateResource.Cache
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.xml
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile Packs\Proyecto xoMobile Packs\obj\Debug\Proyecto xoMobile Packs.pdb

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ProyectoxoMobilePacks
+</name>
+</assembly>
+<members>
+<member name="M:Proyecto_xoMobile_Packs.ceClient.dbConnect">
+	<summary>
+ Crea la cadena de conexion a la base de datos SQL-CE, esta cadena de conexion es utilizada por los Seter y Geter
+ </summary>
+	<returns>SqlCeConnection</returns>
+	<remarks></remarks>
+</member><member name="M:Proyecto_xoMobile_Packs.ceClient.GetDataSet(System.String,Proyecto_xoMobile_Packs.rLayerHandler@)">
+	<summary>
+ Ejecuta una sentencia SQL en la base de dtos SQL-CE del tipo SELECT para obtener un bloque de informacion
+ </summary>
+	<param name="SQL_QUERY">Sentencia SQL a ejecutar</param>
+	<returns>Datatable con el resultado de la sentencia SQL</returns>
+	<remarks></remarks>
+</member><member name="M:Proyecto_xoMobile_Packs.ceClient.SetExecute(System.String,Proyecto_xoMobile_Packs.rLayerHandler@)">
+	<summary>
+ Ejecuta una sentencia SQL en la base de datos SQL-CE del dispositivo movil del tipo Update; Insert; Delete.
+ </summary>
+	<param name="SQL_QUERY"> Sentencia SQL a ejecutar.</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="P:Proyecto_xoMobile_Packs.My.Resources.Resources.ResourceManager">
+	<summary>
+   Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:Proyecto_xoMobile_Packs.My.Resources.Resources.Culture">
+	<summary>
+   Overrides the current thread's CurrentUICulture property for all
+   resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:Proyecto_xoMobile_Packs.My.Resources.Resources">
+	<summary>
+   A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

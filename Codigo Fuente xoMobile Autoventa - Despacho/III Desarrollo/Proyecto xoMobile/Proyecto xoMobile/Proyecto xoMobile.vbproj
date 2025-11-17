@@ -1,0 +1,523 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{80940DD3-A882-4CBC-B3DE-8AE4D2589B3E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Proyecto_xoMobile.frmBrindis</StartupObject>
+    <RootNamespace>Proyecto_xoMobile</RootNamespace>
+    <AssemblyName>xoMobilePackage</AssemblyName>
+    <ProjectTypeGuids>{68B1623D-7FB9-47D8-8664-7ECEA3297D4F};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <PlatformFamilyName>PocketPC</PlatformFamilyName>
+    <PlatformID>b2c48bd2-963d-4549-9169-1fa021dce484</PlatformID>
+    <OSVersion>5.02</OSVersion>
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <DeployDirSuffix>Proyecto_xoMobile</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>Off</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+    <NativePlatformName>Windows Mobile 6 Professional SDK</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>Resources\truck.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>false</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>$(PlatformFamilyName)=TRUE</DefineConstants>
+    <DocumentationFile>
+    </DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <FileAlignment>512</FileAlignment>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DataGridCustomColumns, Version=1.0.5079.29207, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\DataGridCustomColumns\bin\Debug\DataGridCustomColumns.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.WindowsCE.Forms" />
+    <Reference Include="Microsoft.WindowsMobile.Samples.Location, Version=1.0.5808.38206, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\xoMobileGPS\xoMobileGPS\bin\Debug\Microsoft.WindowsMobile.Samples.Location.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=3.5.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="Proyecto xoMobile Packs, Version=1.0.5079.19787, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\Proyecto xoMobile Packs\Proyecto xoMobile Packs\bin\Debug\Proyecto xoMobile Packs.dll</HintPath>
+    </Reference>
+    <Reference Include="PW.JSON, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\PW.JSON.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SqlServerCe, Version=3.5.0.0, Culture=neutral, PublicKeyToken=3be235df1c8d2ad3, processorArchitecture=MSIL" />
+    <Reference Include="System.Deployment, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Data" />
+    <Reference Include="xoMobileGPS, Version=1.0.6033.27429, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\..\..\xoMobileGPS\xoMobileGPS\bin\Debug\xoMobileGPS.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="DataGridCustomColumns" />
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Administracion\frmBrindis.Designer.vb">
+      <DependentUpon>frmBrindis.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmBrindis.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmConfig.Designer.vb">
+      <DependentUpon>frmConfig.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmConfig.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmClienteNuevo.designer.vb">
+      <DependentUpon>frmClienteNuevo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmClienteNuevo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmPresupuesto.Designer.vb">
+      <DependentUpon>frmPresupuesto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmPresupuesto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmPresupuestoCliente.Designer.vb">
+      <DependentUpon>frmPresupuestoCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmPresupuestoCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FEL\felCabecera.vb" />
+    <Compile Include="FEL\felDetalle.vb" />
+    <Compile Include="FEL\felRespuesta.vb" />
+    <Compile Include="FEL\Generador.vb" />
+    <Compile Include="Sync\frmSincronizar.Designer.vb">
+      <DependentUpon>frmSincronizar.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Sync\frmSincronizar.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Administracion\frmSystat.Designer.vb">
+      <DependentUpon>frmSystat.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Administracion\frmSystat.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AppBusiness\BitacoraBL.vb" />
+    <Compile Include="AppBusiness\BodegaBL.vb" />
+    <Compile Include="AppBusiness\ClienteBL.vb" />
+    <Compile Include="AppBusiness\DespachoBL.vb" />
+    <Compile Include="AppBusiness\DocumentoBL.vb" />
+    <Compile Include="AppBusiness\EncuestaBL.vb" />
+    <Compile Include="AppBusiness\InventarioBL.vb" />
+    <Compile Include="AppBusiness\InventarioCliBL.vb" />
+    <Compile Include="AppData\InventarioCliente.vb" />
+    <Compile Include="Atencion al cliente\frmDetalleCliente.Designer.vb">
+      <DependentUpon>frmDetalleCliente.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmDetalleCliente.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Impresion de documentos\ImpresionBL.vb" />
+    <Compile Include="AppBusiness\messageCollection.vb" />
+    <Compile Include="AppBusiness\ProductoBL.vb" />
+    <Compile Include="AppBusiness\rLayerHandler.vb" />
+    <Compile Include="AppBusiness\RutaBL.vb" />
+    <Compile Include="AppBusiness\UsuarioBl.vb" />
+    <Compile Include="AppBusiness\UtilitarioBL.vb" />
+    <Compile Include="Sync\ceImport.vb" />
+    <Compile Include="Sync\TrustAllCertificatePolicy.vb" />
+    <Compile Include="Web References\xoService\Reference.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.map</DependentUpon>
+    </Compile>
+    <Compile Include="WorkFlows\wfInventario.vb" />
+    <Compile Include="AppBusiness\workflowBL.vb" />
+    <Compile Include="WorkFlows\workFlowCobro.vb" />
+    <Compile Include="WorkFlows\workFlowVenta.vb" />
+    <Compile Include="AppData\Bitacora.vb" />
+    <Compile Include="AppData\BodegaDT.vb" />
+    <Compile Include="AppData\ClienteDT.vb" />
+    <Compile Include="AppData\DespachoDT.vb" />
+    <Compile Include="AppData\Encuesta.vb" />
+    <Compile Include="AppData\Factura.vb" />
+    <Compile Include="AppData\Inventario.vb" />
+    <Compile Include="AppData\NotaCreditoDT.vb" />
+    <Compile Include="AppData\ProductoDT.vb" />
+    <Compile Include="AppData\Recibo.vb" />
+    <Compile Include="AppData\Ruta.vb" />
+    <Compile Include="AppData\Usuario.vb" />
+    <Compile Include="AppData\Util\modGlobals.vb" />
+    <Compile Include="AppData\Util\UtilitarioDT.vb" />
+    <Compile Include="AppData\WorkflowDT.vb" />
+    <Compile Include="AppBusiness\ceClient.vb" />
+    <Compile Include="Sync\ceExportData.vb" />
+    <Compile Include="Sync\ceExportLogic.vb" />
+    <Compile Include="Atencion al cliente\frmClientes.Designer.vb">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmClientes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmCobro.Designer.vb">
+      <DependentUpon>frmCobro.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmCobro.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmDescuentoManual.Designer.vb">
+      <DependentUpon>frmDescuentoManual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmDescuentoManual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmDespacho.Designer.vb">
+      <DependentUpon>frmDespacho.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmDespacho.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmEncuesta.Designer.vb">
+      <DependentUpon>frmEncuesta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmEncuesta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmEncuestaDetalle.Designer.vb">
+      <DependentUpon>frmEncuestaDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmEncuestaDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmIngreso.Designer.vb">
+      <DependentUpon>frmIngreso.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmIngreso.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmPago.Designer.vb">
+      <DependentUpon>frmPago.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Atencion al cliente\frmPago.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmClientesSaldo.Designer.vb">
+      <DependentUpon>frmClientesSaldo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmClientesSaldo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmConsultaCarga.Designer.vb">
+      <DependentUpon>frmConsultaCarga.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmConsultaCarga.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmDocumentosEmitidos.Designer.vb">
+      <DependentUpon>frmDocumentosEmitidos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmDocumentosEmitidos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidacion\frmFinDia.Designer.vb">
+      <DependentUpon>frmFinDia.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Liquidacion\frmFinDia.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consultas en linea\frmInventarioProducto.Designer.vb">
+      <DependentUpon>frmInventarioProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Consultas en linea\frmInventarioProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\mAtencion.Designer.vb">
+      <DependentUpon>mAtencion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\mAtencion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\mConsulta.Designer.vb">
+      <DependentUpon>mConsulta.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\mConsulta.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Menu\mPrincipal.Designer.vb">
+      <DependentUpon>mPrincipal.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Menu\mPrincipal.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Impresion de documentos\printReporte.vb" />
+    <Compile Include="Liquidacion\frmDeclaraDespachos.Designer.vb">
+      <DependentUpon>frmDeclaraDespachos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Liquidacion\frmDeclaraDespachos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Liquidacion\frmDevolucionBodega.designer.vb">
+      <DependentUpon>frmDevolucionBodega.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Liquidacion\frmDevolucionBodega.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruta\frmPreguntas.Designer.vb">
+      <DependentUpon>frmPreguntas.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ruta\frmPreguntas.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ruta\frmPreguntasDetalle.Designer.vb">
+      <DependentUpon>frmPreguntasDetalle.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Ruta\frmPreguntasDetalle.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Administracion\frmBrindis.resx">
+      <DependentUpon>frmBrindis.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmConfig.resx">
+      <DependentUpon>frmConfig.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmClienteNuevo.resx">
+      <DependentUpon>frmClienteNuevo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmPresupuesto.resx">
+      <DependentUpon>frmPresupuesto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmPresupuestoCliente.resx">
+      <DependentUpon>frmPresupuestoCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sync\frmSincronizar.resx">
+      <DependentUpon>frmSincronizar.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Administracion\frmSystat.resx">
+      <DependentUpon>frmSystat.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmClientes.resx">
+      <DependentUpon>frmClientes.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmCobro.resx">
+      <DependentUpon>frmCobro.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmDescuentoManual.resx">
+      <DependentUpon>frmDescuentoManual.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmDespacho.resx">
+      <DependentUpon>frmDespacho.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmDetalleCliente.resx">
+      <DependentUpon>frmDetalleCliente.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmEncuesta.resx">
+      <DependentUpon>frmEncuesta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmEncuestaDetalle.resx">
+      <DependentUpon>frmEncuestaDetalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmIngreso.resx">
+      <DependentUpon>frmIngreso.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Atencion al cliente\frmPago.resx">
+      <DependentUpon>frmPago.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmClientesSaldo.resx">
+      <DependentUpon>frmClientesSaldo.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmConsultaCarga.resx">
+      <DependentUpon>frmConsultaCarga.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmDocumentosEmitidos.resx">
+      <DependentUpon>frmDocumentosEmitidos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidacion\frmFinDia.resx">
+      <DependentUpon>frmFinDia.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consultas en linea\frmInventarioProducto.resx">
+      <DependentUpon>frmInventarioProducto.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\mAtencion.resx">
+      <DependentUpon>mAtencion.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\mConsulta.resx">
+      <DependentUpon>mConsulta.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Menu\mPrincipal.resx">
+      <DependentUpon>mPrincipal.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidacion\frmDeclaraDespachos.resx">
+      <DependentUpon>frmDeclaraDespachos.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Liquidacion\frmDevolucionBodega.resx">
+      <DependentUpon>frmDevolucionBodega.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruta\frmPreguntas.resx">
+      <DependentUpon>frmPreguntas.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Ruta\frmPreguntasDetalle.resx">
+      <DependentUpon>frmPreguntasDetalle.vb</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferences Include="Web References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mAutoRealizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mRealizado.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mAnular.png" />
+    <None Include="Resources\mCobro.png" />
+    <None Include="Resources\mEncuesta.png" />
+    <None Include="Resources\mImprimir.png" />
+    <None Include="Resources\mpAtencion.png" />
+    <None Include="Resources\mpDevolucion.png" />
+    <None Include="Resources\mVenta.png" />
+    <None Include="Resources\mVenta1.png" />
+    <Content Include="Release notes.txt" />
+    <None Include="Resources\mCambio.png" />
+    <Content Include="Resources\mPresupuesto.png" />
+    <None Include="Resources\presupuesto.bmp" />
+    <None Include="Resources\presupuesto.png" />
+    <Content Include="Resources\truck.ico" />
+    <None Include="Web References\xoService\Reference.map">
+      <Generator>MSDiscoCodeGenerator</Generator>
+      <LastGenOutput>Reference.vb</LastGenOutput>
+    </None>
+    <None Include="Web References\xoService\ServiceHollaBack.datasource">
+      <DependentUpon>Reference.map</DependentUpon>
+    </None>
+    <None Include="Web References\xoService\xotest.disco" />
+    <None Include="Web References\xoService\xotest.wsdl" />
+    <Content Include="xomData.sdf">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WebReferenceUrl Include="http://mixco19/xoService">
+      <UrlBehavior>Dynamic</UrlBehavior>
+      <RelPath>Web References\xoService\</RelPath>
+      <UpdateFromURL>http://mixco19/xoService</UpdateFromURL>
+      <ServiceLocationURL>
+      </ServiceLocationURL>
+      <CachedDynamicPropName>
+      </CachedDynamicPropName>
+      <CachedAppSettingsObjectName>
+      </CachedAppSettingsObjectName>
+      <CachedSettingsPropName>
+      </CachedSettingsPropName>
+    </WebReferenceUrl>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="AppService\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.VisualBasic.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{F184B08F-C81C-45F6-A57F-5ABD9991F28F}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

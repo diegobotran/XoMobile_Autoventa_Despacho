@@ -1,0 +1,396 @@
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCorrel.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobile.exe
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobile.exe
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Microsoft.WindowsMobile.Samples.Location.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.dll
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\diazg\Documents\Requerimientos\xoMobile\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+D:\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Backup Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Autoventa 2016\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Microsoft.WindowsMobile.Samples.Location.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuesto.resources
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuestoCliente.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Microsoft.WindowsMobile.Samples.Location.dll
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.dll
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuesto.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuestoCliente.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+H:\Desarrollo\Backup Noviembre 2017\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuesto.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuestoCliente.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\coyoyp\Desktop\Pruebas\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Newtonsoft.Json.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\PW.JSON.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.EnterpriseServices.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.OracleClient.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Transactions.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Web.dll
+C:\Users\coyoyp\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.EnterpriseServices.Wrapper.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xomData.sdf
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.exe
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobilePackage.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\PW.JSON.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.SqlServerCe.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.EnterpriseServices.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Data.OracleClient.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Transactions.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.Web.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\DataGridCustomColumns.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Proyecto xoMobile Packs.xml
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\System.EnterpriseServices.Wrapper.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmBrindis.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConfig.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClienteNuevo.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuesto.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPresupuestoCliente.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmImportar_.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmSystat.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientes.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmCobro.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDescuentoManual.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDespacho.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDetalleCliente.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuesta.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmEncuestaDetalle.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmIngreso.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPago.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmClientesSaldo.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmConsultaCarga.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDocumentosEmitidos.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmFinDia.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmInventarioProducto.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mAtencion.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mConsulta.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.mPrincipal.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.Resources.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDeclaraDespachos.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmDevolucionBodega.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntas.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto_xoMobile.frmPreguntasDetalle.resources
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\Proyecto xoMobile.vbproj.GenerateResource.Cache
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.exe
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\obj\Debug\xoMobilePackage.pdb
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\Microsoft.WindowsMobile.Samples.Location.dll
+C:\Users\Yokonet\Documents\Visual Studio 2008\Projects\xoMobile Autoventa\III Desarrollo\Proyecto xoMobile\Proyecto xoMobile\bin\Debug\xoMobileGPS.dll
