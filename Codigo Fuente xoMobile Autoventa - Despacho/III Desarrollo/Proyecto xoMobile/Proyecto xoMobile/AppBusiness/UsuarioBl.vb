@@ -42,6 +42,10 @@ Public Class UsuarioBl
                         co_glo_vendedor = usuario.nombre
                     Case "BODE"
                         co_glo_bodeguero = usuario.nombre
+                    Case "VENL"
+                        co_glo_vendedor = usuario.nombre
+                    Case "BODL"
+                        co_glo_bodeguero = usuario.nombre
                 End Select
             Next
             Return usuario
@@ -60,21 +64,22 @@ Public Class UsuarioBl
 
             Case Is = "BRINDIS"
                 '--- Login de vendedor y supervisor
-                If usuario.rol = "VEND" Or usuario.rol = "SUPE" Then
+                If usuario.rol = "VEND" Or usuario.rol = "VENL" Or usuario.rol = "SUPE" Then
                     Return True
                 End If
 
                 '--- Login liquidador
-
                 If (usuario.rol = "LIQU" Or usuario.rol = "LIQP") And oBitacora.isOperacionRealizada_xo(38) Then
                     Return True
                 End If
+                '--- Login de Bode y bode liquidador 
             Case Is = "BODEGA"
-                If usuario.rol = "BODE" Then
+                If usuario.rol = "BODE" Or usuario.rol = "BODL" Then
                     Return True
                 End If
+                '--- acceso para bode liquidador y vendedor liquidador
             Case Is = "LIQUIDACION"
-                If usuario.rol = "LIQU" Or usuario.rol = "LIQP" Then
+                If usuario.rol = "LIQU" Or usuario.rol = "LIQP" Or usuario.rol = "BODL" Or usuario.rol = "VENL" Then
                     Return True
                 End If
 
